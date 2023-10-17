@@ -3,13 +3,13 @@
 # Function to validate input against given options
 validate_input() {
     local input="$1"
-    local options="$2"
-    for option in $options; do
+    local given_options="$2"
+    for option in $given_options; do
         if [ "$input" == "$option" ]; then
-            return 0  # Input is valid
+            return 0  # valid input
         fi
     done
-    return 1  # Input is invalid
+    return 1  # invalid input
 }
 
 # Prompt user for input values
