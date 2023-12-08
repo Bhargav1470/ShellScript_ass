@@ -5,6 +5,6 @@ Input:-
 1) Component Name [INGESTOR/JOINER/WRANGLER/VALIDATOR]
 2) Scale [MID/HIGH/LOW]
 3) View [Auction/Bid]
-4) Count [single digit number]
-Explanation of a conf file line.
+4) Count [single digit number] <br>
+Explanation of a conf file line.<br>
 <view> ; <scale> ; <component name> ; ETL ; vdopia-etl= <count>
